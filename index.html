@@ -24,7 +24,7 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
@@ -32,43 +32,36 @@
 <body>
 
   <!-- ======= Navbar ======= -->
-  <!-- <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
-    <div class="container py-2 py-md-5">
-      <div class="row align-items-start">
-        <div class="col-md-2">
-          <ul class="custom-menu">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="works.html">Works</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6 d-none d-md-block  mr-auto">
-          <div class="tweet d-flex">
-            <span class="bi bi-twitter text-white mt-2 mr-3"></span>
-            <div>
-              <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore. <br> <a href="#">t.co/v82jsk</a></em></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-none d-md-block">
-          <h3>Hire Me</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiisexplicabo inventore. <br> <a href="#">myemail@gmail.com</a></p>
-        </div>
-      </div>
-
-    </div>
-  </div> -->
-
-  <!-- <nav class="navbar navbar-light custom-navbar">
+  <nav class="navbar navbar-b navbar-light bg-light navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">MyPortfolio.</a>
-      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
+      <a class="navbar-brand js-scroll" href="#">Eshan</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
-      </a>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#service">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#projects">Projects</a>
+          </li>      
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </nav> -->
+  </nav>
+  <!-- ======= End Navbar ======= -->
 
   <main id="main">
 
@@ -81,13 +74,13 @@
             <p class="mb-0">Software Engineering Student</p>
           </div>
           <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-            <p><img src="assets/img/person_1_sq.jpg" alt="Image" class="img-fluid"></p>
+            <p><img src="assets/img/person_1_sq.jpg" id="imgmy" alt="Image" class="img-fluid"></p>
           </div>
         </div>
       </div>
     </section><!-- End project Section -->
 
-    <section class="section pb-5">
+    <section class="section" id="about">
       <div class="container">
         <div class="container-fluid">
           <div class="row">
@@ -152,7 +145,8 @@
       </div>
     </section>
 
-    <section class="section">
+    <!-- Projects Section -->
+    <section class="section" id="projects">
       <div class="container">
         <div class="row justify-content-center text-center mb-4" data-aos="fade-up" data-aos-delay="100">
           <h3 class="h2 heading">Projects</h3>
@@ -226,57 +220,57 @@
       </div>
     </section>
 
-    <!-- ======= Services Section ======= -->
-    <section class="section services" data-aos="fade-up" data-aos-delay="100">
+    <!-- ======= Contact Section ======= -->
+    <section class="section services" data-aos="fade-up" data-aos-delay="100" id="contact">
       <div class="container">
         <div class="shadow-none p-3 mb-5 bg-light rounded">
-        <div class="row justify-content-center text-center mb-4">
-          <div class="col-5">
-            <h3 class="h3 heading">Contact Me</h3>
+          <div class="row justify-content-center text-center mb-4">
+            <div class="col-5">
+              <h3 class="h3 heading">Contact Me</h3>
+            </div>
           </div>
-        </div>
-        <div class="row">
+          <div class="row">
 
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="row justify-content-center text-center mb-4">
-              <i class="bi bi-envelope"></i>
-              <h4 class="h4 mb-2">eshankavishka10@gmail.com</h4>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="row justify-content-center text-center mb-4">
+                <i class="bi bi-envelope"></i>
+                <h4 class="h4 mb-2">eshankavishka10@gmail.com</h4>
+              </div>
             </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="row justify-content-center text-center mb-4">
-              <i class="bi bi-linkedin"></i>
-              <a href="https://www.linkedin.com/in/eshan-kavishka-74a3a31a3/">
-                <h4 class="h4 mb-2">https://www.linkedin.com/in/eshan/</h4>
-              </a>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="row justify-content-center text-center mb-4">
+                <i class="bi bi-linkedin"></i>
+                <a href="https://www.linkedin.com/in/eshan-kavishka-74a3a31a3/">
+                  <h4 class="h4 mb-2">https://www.linkedin.com/in/eshan/</h4>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="row justify-content-center text-center mb-4">
-              <i class="bi bi-github"></i>
-              <a href="https://github.com/eshan10x">
-                <h4 class="h4 mb-2">https://github.com/eshan10x</h4>
-              </a>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="row justify-content-center text-center mb-4">
+                <i class="bi bi-github"></i>
+                <a href="https://github.com/eshan10x">
+                  <h4 class="h4 mb-2">https://github.com/eshan10x</h4>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="row justify-content-center text-center mb-4">
-              <i class="bi bi-twitter"></i>
-              <a href="https://twitter.com/Eshxnk">
-                <h4 class="h4 mb-2">https://twitter.com/Eshxnk</h4>
-              </a>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="row justify-content-center text-center mb-4">
+                <i class="bi bi-twitter"></i>
+                <a href="https://twitter.com/Eshxnk">
+                  <h4 class="h4 mb-2">https://twitter.com/Eshxnk</h4>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
     </section><!-- End Services Section -->
 
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    </div>
 
-      </div>
+    </div>
     </section><!-- End Testimonials Section -->
 
   </main><!-- End #main -->
@@ -300,8 +294,8 @@
     </div>
   </footer>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short" style="font-size: 40px;"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"
+      style="font-size: 40px;"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>

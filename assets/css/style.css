@@ -27,7 +27,12 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .section {
-  padding: 4rem 0;
+  padding: 3rem 0;
+}
+
+#imgmy {
+  
+  margin-top: 40px;
 }
 
 .filters a {
